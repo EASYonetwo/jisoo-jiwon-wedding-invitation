@@ -44,7 +44,18 @@ h2 { color: #b08968; }
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
+  padding: 40px 24px;
+  box-sizing: border-box;
+  gap: 16px;
+}
+
+.cover-illustration img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  display: block;
 }
 
 .greeting p{
