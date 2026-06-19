@@ -324,15 +324,16 @@ h2 { color: #b08968; }
 }
 
 .vote-thumbnail {
-  height: 400px;
+  height: 350px;
   background-image: url('img/vote.png');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8px;
   margin-bottom: 16px;
 }
 
