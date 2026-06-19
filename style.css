@@ -40,6 +40,55 @@ section {
 
 h2 { color: #b08968; }
 
+.cover {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  box-sizing: border-box;
+  gap: 16px;
+  background: #F9F0E8;
+  font-family: 'MunmakchoHaeban', serif;
+  color: #4a4a4a;
+}
+
+.cover-illustration img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  display: block;
+}
+
+.cover-date {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.cover-venue {
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.cover-names {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 6px;
+  color: #b08968;
+  line-height: 1.8;
+}
+
+.cover-names .and {
+  display: block;
+  font-size: 14px;
+  letter-spacing: 4px;
+  color: #b08968;
+  margin: 12px 0;
+}
+
 .greeting p{
     font-family: 'MunmakchoByeolban', serif;
     line-height: 2;
@@ -181,56 +230,6 @@ h2 { color: #b08968; }
   font-size: 12px;
 }
 
-
-.cover {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 40px 24px;
-  box-sizing: border-box;
-  gap: 16px;
-  background: #F9F0E8;
-  font-family: 'MunmakchoHaeban', serif;
-  color: #4a4a4a;
-}
-
-.cover-illustration img {
-  width: 100%;
-  max-width: 280px;
-  height: auto;
-  display: block;
-}
-
-.cover-date {
-  font-size: 18px;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
-}
-
-.cover-venue {
-  font-size: 14px;
-  letter-spacing: 2px;
-  margin-bottom: 5px;
-}
-
-.cover-names {
-  font-size: 32px;
-  font-weight: 400;
-  letter-spacing: 6px;
-  color: #b08968;
-  line-height: 1.8;
-}
-
-.cover-names .and {
-  display: block;
-  font-size: 14px;
-  letter-spacing: 4px;
-  color: #b08968;
-  margin: 12px 0;
-}
-
 .cover-illustration {
   display: flex;
   align-items: center;
@@ -248,12 +247,6 @@ h2 { color: #b08968; }
   font-size: 14px;
   color: #777;
   margin-bottom: 4px;
-}
-
-.venue-tel {
-  font-size: 13px;
-  color: #999;
-  margin-bottom: 20px;
 }
 
 .map-link {
@@ -316,6 +309,31 @@ h2 { color: #b08968; }
 
 .parking-note strong {
   color: #555;
+}
+
+.vote-desc {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.vote-link {
+  text-decoration: none;
+  display: block;
+}
+
+.vote-thumbnail {
+  height: 400px;
+  background-image: url('img/vote.png');
+  background-size: cover;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 16px;
 }
 
 .account-desc {
